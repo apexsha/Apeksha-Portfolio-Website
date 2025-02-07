@@ -9,6 +9,7 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
+
     <div className={darkMode ? "dark bg-gray-900 text-white" : "bg-white text-gray-900"}>
       <Router>
         <header className="p-4 flex justify-between items-center bg-blue-500 dark:bg-gray-800">
@@ -35,6 +36,7 @@ const App = () => {
         </footer>
       </Router>
     </div>
+    
   );
 };
 
